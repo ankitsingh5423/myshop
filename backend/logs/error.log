@@ -1,0 +1,28 @@
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error establishing server %s"}
+{"level":"error","message":"Error establishing server %s"}
+{"level":"error","message":"Error establishing server %s"}
+{"code":8000,"codeName":"AtlasError","connectionGeneration":0,"errorLabelSet":{},"errorResponse":{"code":8000,"codeName":"AtlasError","errmsg":"bad auth : authentication failed","ok":0},"level":"error","message":"MONGODB connection FAILED  bad auth : authentication failed","ok":0,"stack":"MongoServerError: bad auth : authentication failed\n    at Connection.sendCommand (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\connection.js:299:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async Connection.command (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\connection.js:327:26)\n    at async continueScramConversation (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:131:15)\n    at async executeScram (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:80:5)\n    at async ScramSHA1.auth (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\auth\\scram.js:39:16)\n    at async performInitialHandshake (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\connect.js:104:13)\n    at async connect (C:\\Users\\abhi_\\node_modules\\mongodb\\lib\\cmap\\connect.js:24:9)"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error registering user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending email: %s"}
+{"level":"error","message":"Error registering user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error registering user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}

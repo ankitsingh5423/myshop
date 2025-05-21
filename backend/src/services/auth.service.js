@@ -24,7 +24,7 @@ export const registerUserService = async (userDetails) => {
 export const sendUserVerificationEmailService = async (user) => {
   try {
     const verificationToken = await user.generateVerificationToken();
-    const verificationLink = `${process.env.BACKEND_URL}/api/v1/verify-email?token=${verificationToken}`;
+    const verificationLink = `${process.env.BACKEND_URL}/api/v1/auth/verify-user/${verificationToken}`;
 
     await sendEmail({
       to: user.email,
@@ -33,6 +33,56 @@ export const sendUserVerificationEmailService = async (user) => {
     });
   } catch (error) {
     logger.error("Error sending user verification email: %s", error.message);
+    throw error;
+  }
+};
+
+export const verifyUserService = async (verificationToken) => {
+  try {
+    const existingUser = await User.findOne({ verificationToken });
+
+    if (!existingUser) {
+      throw new ApiError(404, "User not found.");
+    }
+
+    if (existingUser?.isVerified) {
+      throw new ApiError(409, "User already verified.");
+    }
+
+    if (new Date() > existingUser?.verificationTokenExpiry) {
+      throw new ApiError(422, "Verification token expired.");
+    }
+
+    existingUser.isVerified = true;
+    existingUser.verificationToken = undefined;
+    existingUser.verificationTokenExpiry = undefined;
+    await existingUser.save();
+
+    const accessToken = existingUser.generateAccessToken();
+    const refreshToken = existingUser.generateRefreshToken();
+
+    return { accessToken, refreshToken };
+  } catch (error) {
+    logger.error("Error Verifying user service: %s", error.message);
+    throw error;
+  }
+};
+
+export const resendVerificationEmailService = async (email) => {
+  try {
+    const existingUser = await User.findOne({ email });
+
+    if (!existingUser) {
+      throw new ApiError(404, "User not found.");
+    }
+
+    if (existingUser?.isVerified) {
+      throw new ApiError(409, "User already verified.");
+    }
+
+    sendUserVerificationEmailService(existingUser);
+  } catch (error) {
+    logger.error("Error checking valid user service: %s", error.message);
     throw error;
   }
 };

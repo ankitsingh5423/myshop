@@ -1,4 +1,4 @@
-import { body } from "express-validator";
+import { body, param } from "express-validator";
 
 const authValidationRules = {
   register: [
@@ -38,6 +38,28 @@ const authValidationRules = {
       .matches(/[@$!%*?&]/)
       .withMessage("Password must contain at least one special character")
       .trim(),
+  ],
+
+  verifyUser: [
+    param("verificationToken")
+      .exists()
+      .withMessage("Verification token field is required.")
+      .notEmpty()
+      .withMessage("verification token field can not be empty.")
+      .isString()
+      .withMessage("Verification token should be a valid string.")
+      .trim(),
+  ],
+
+  resendVerificationEmail: [
+    body("email")
+      .exists()
+      .withMessage("Email field is required.")
+      .notEmpty()
+      .withMessage("Email field can not be empty.")
+      .isEmail()
+      .withMessage("Email field should be a valid email address.")
+      .normalizeEmail(),
   ],
 
   login: [

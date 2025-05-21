@@ -11,24 +11,50 @@ export const authenticate = async (req, res, next) => {
     }
 
     if (!token) {
-      throw new ApiError(401, "Unauthorized - No token provided");
+      throw new ApiError(401, "Unauthorized - No access token");
     }
-
-    const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
     try {
+      const decoded = jwt.verify(token, process.env.ACCESS_TOKEN_SECRET);
       const user = await findUserById(decoded.userId);
-
-      if (!user) {
-        throw new ApiError(404, "User does not exist.");
-      }
+      if (!user) throw new ApiError(404, "User not found");
       req.loggedInUser = user;
-    } catch (error) {
-      throw new ApiError(500, error?.message ?? "Internal processing error.");
-    }
+      return next();
+    } catch (accessError) {
+      if (accessError.name === "TokenExpiredError") {
+        const refreshToken = req.cookies?.refreshToken;
 
-    next();
-  } catch (error) {
-    throw new ApiError(401, "Unauthorized - Invalid or expired token");
+        if (!refreshToken)
+          throw new ApiError(401, "Unauthorized - No refresh token");
+
+        try {
+          const decoded = jwt.verify(
+            refreshToken,
+            process.env.REFRESH_TOKEN_SECRET
+          );
+          const user = await findUserById(decoded.userId);
+          if (!user) throw new ApiError(404, "User not found");
+
+          // Generate new access token
+          const newAccessToken = generateAccessToken(user._id);
+
+          // Set new access token cookie
+          res.cookie("accessToken", newAccessToken, {
+            httpOnly: true,
+            secure: process.env.NODE_ENV === "production",
+            sameSite: "Lax",
+            maxAge: 15 * 60 * 1000, // 15 min
+          });
+
+          req.loggedInUser = user;
+          return next();
+        } catch (refreshError) {
+          throw new ApiError(401, "Unauthorized - Invalid refresh token");
+        }
+      }
+      throw new ApiError(401, "Unauthorized - Invalid access token");
+    }
+  } catch (err) {
+    next(err);
   }
 };

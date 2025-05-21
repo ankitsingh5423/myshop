@@ -473,3 +473,278 @@
 {"level":"info","message":"Server is running on http://localhost:3000"}
 {"level":"error","message":"Error registering user service: %s"}
 {"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error checking valid user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error checking valid user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error Verifying user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"error","message":"Error checking valid user service: %s"}
+{"level":"error","message":"Internal Processiong Error %s"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-00.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-01.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}
+{"level":"info","message":"MongoDB connected !! DB HOST: ac-gfyqh8p-shard-00-02.vpskscz.mongodb.net"}
+{"level":"info","message":"Server is running on http://localhost:3000"}

@@ -6,9 +6,12 @@ import { ROLES } from "../constants/constants.js";
 
 const userSchema = new Schema(
   {
-    username: {
+    firstName: {
       type: String,
       trim: true,
+    },
+    lastName: {
+      type: String,
     },
     email: {
       type: String,

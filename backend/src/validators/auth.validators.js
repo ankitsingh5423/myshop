@@ -2,13 +2,21 @@ import { body, param } from "express-validator";
 
 const authValidationRules = {
   register: [
-    body("username")
+    body("firstName")
       .exists()
-      .withMessage("Username field is required.")
+      .withMessage("First name field is required.")
       .notEmpty()
-      .withMessage("Username field can not be empty.")
+      .withMessage("First name field can not be empty.")
       .isString()
-      .withMessage("Username field should be a valid string.")
+      .withMessage("First name field should be a valid string.")
+      .trim(),
+
+    body("lastName")
+      .optional()
+      .notEmpty()
+      .withMessage("Last name field can not be empty.")
+      .isString()
+      .withMessage("Last name field should be a valid string.")
       .trim(),
 
     body("email")

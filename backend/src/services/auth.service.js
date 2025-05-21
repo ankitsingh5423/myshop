@@ -6,10 +6,14 @@ import { sendEmail } from "../utils/mail.utils.js";
 
 export const registerUserService = async (userDetails) => {
   try {
-    const existingUser = await User.findOne({ email: userDetails.email });
+    const existingUser = await User.findOne({ email: userDetails?.email });
 
-    if (existingUser) {
+    if (existingUser && existingUser?.isVerified) {
       throw new ApiError(409, "User already exists.");
+    }
+
+    if (existingUser && !existingUser?.isVerified) {
+      return existingUser;
     }
 
     const newUser = await User.create(userDetails);

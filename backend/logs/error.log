@@ -63,3 +63,10 @@
 {"level":"error","message":"Internal Processiong Error %s"}
 {"level":"error","message":"Error checking valid user service: %s"}
 {"level":"error","message":"Internal Processiong Error %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}
+{"level":"error","message":"Error sending user verification email: %s"}

@@ -8,9 +8,14 @@ import {
 } from "../services/auth.service.js";
 
 export const register = asyncHandler(async (req, res) => {
-  const { username, email, password } = req.body;
+  const { firstName, lastName, email, password } = req.body;
 
-  const newUser = await registerUserService({ username, email, password });
+  const newUser = await registerUserService({
+    firstName,
+    lastName,
+    email,
+    password,
+  });
 
   sendUserVerificationEmailService(newUser);
 

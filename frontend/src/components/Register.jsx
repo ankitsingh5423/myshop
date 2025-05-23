@@ -1,16 +1,40 @@
 import React from "react";
 import { useForm } from "react-hook-form";
+import { yupResolver } from "@hookform/resolvers/yup";
+import * as yup from "yup";
 import { Link } from "react-router-dom";
 
+const schema = yup.object({
+  firstName: yup
+    .string()
+    .required()
+    .trim()
+    .min(2, "first name must be atlest 2 characters")
+    .max(15, "first name cannot exceed 15 characters")
+    .matches(/^[A-Za-z ]+$/, "Name can only contain letters and spaces"),
+  lastName: yup
+    .string()
+    .trim()
+    .min(2, "last name must be atlest 2 characters")
+    .max(15, "last name cannot exceed 15 characters")
+    .matches(/^[A-Za-z ]+$/, "last name can only contain letters and spaces"),
+  email: yup.string().email().required().trim(),
+  password: yup.string().required().min(6).max(30, "password cannot exceed 30"),
+});
+
 const Register = () => {
-  const { register, handelSubmit } = useForm({
-    defaultValues: {
-      firstName: "",
-      lastName: "",
-      email: "",
-      password: "",
-    },
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm({
+    resolver: yupResolver(schema),
   });
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
+
   return (
     <div className="min-h-screen px-4 sm:px-6 lg:px-8">
       {/* heading */}
@@ -30,7 +54,7 @@ const Register = () => {
 
       <div className="flex justify-center">
         <div className="w-2xl ">
-          <form onSubmit={handelSubmit(console.log)} className="space-y-6">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
             <fieldset className="fieldset">
               {/* first-name */}
               <div className="form-control w-full">
@@ -38,16 +62,12 @@ const Register = () => {
                   First name <span className="text-red-600">*</span>
                 </legend>
                 <input
-                  {...register("firstName", {
-                    validate: {
-                      required: true,
-                      
-                    },
-                  })}
+                  {...register("firstName")}
                   type="text"
                   className="input input-bordered bg-white border-gray-300 focus:outline-0 focus:border-black w-full h-10 sm:h-12 rounded-4xl"
                   placeholder="First name"
                 />
+                <p>{errors.firstName?.message}</p>
               </div>
 
               {/* last-name */}
@@ -56,10 +76,12 @@ const Register = () => {
                   Last name
                 </legend>
                 <input
+                  {...register("lastName")}
                   type="text"
                   className="input input-bordered bg-white border-gray-300 focus:outline-0 focus:border-black w-full h-10 sm:h-12 rounded-4xl"
                   placeholder="Last name"
                 />
+                <p>{errors.lastName?.message}</p>
               </div>
 
               {/* email */}
@@ -68,10 +90,12 @@ const Register = () => {
                   Email <span className="text-red-600">*</span>
                 </legend>
                 <input
+                  {...register("email")}
                   type="email"
                   className="input input-bordered bg-white border-gray-300 focus:outline-0 focus:border-black w-full h-10 sm:h-12 rounded-4xl"
                   placeholder="Email"
                 />
+                <p>{errors.email?.message}</p>
               </div>
 
               {/* password */}
@@ -80,10 +104,12 @@ const Register = () => {
                   Password <span className="text-red-600">*</span>
                 </legend>
                 <input
+                  {...register("password")}
                   type="password"
                   className="input input-bordered bg-white border-gray-300 focus:outline-0 focus:border-black w-full h-10 sm:h-12 rounded-4xl"
                   placeholder="Password"
                 />
+                <p>{errors.password?.message}</p>
               </div>
 
               {/* notice */}

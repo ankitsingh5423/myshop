@@ -7,10 +7,10 @@ import RegisterPage from "./pages/RegisterPage";
 const App = () => {
   return (
     <Routes>
-      <Route element={<AdminLayout />}>
-        <Route path="/" element={<Dashboard />} />
+      <Route path="admin" element={<AdminLayout />}>
+        <Route path="" element={<Dashboard />} />
       </Route>
-      <Route path="/register" element={<RegisterPage />} />
+      <Route path="register" element={<RegisterPage />} />
     </Routes>
   );
 };
